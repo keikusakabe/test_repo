@@ -11,3 +11,7 @@ git commit
 git push -u origin master
   リモートにデータをプッシュ
 
+git diff ファイル名
+  編集された箇所を確認できる
+git show commitID
+  commitされた内容を確認できる
