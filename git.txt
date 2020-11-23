@@ -4,5 +4,10 @@ git status
  Gitにあげていないデータの確認
 git add (. だと全てのファイル)(ファイル名)
  ステージングにあげるファイルを指定
+git remote add origin ssh(url)
+  リモートレポジトリを作成
 git commit
- ステージングにあげたファイルをGitにコミット
+  ステージングにあげたファイルをGitにコミット
+git push -u origin master
+  リモートにデータをプッシュ
+
